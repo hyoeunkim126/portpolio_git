@@ -16,12 +16,13 @@ form{width:1040px; height: 1080px;  background-color: white;
 #detail_img img{width: 120px; height: 120px; display: inline-block;}
 .c1{width: 440px; height: 440px;}
 #detail_img ul{padding: 0; }
-#detail_img li{float: left;}
+#detail_img li{float: left; border: 1px solid #eee; margin: 10px;}
 #detail_img li:hover{cursor: pointer; opacity: 0.7;}
 
-button{width:150px; font-size: 16px; color: white; display: inline-block;
+.products_price button{width:150px; font-size: 16px; color: white; display: inline-block;
        padding: 10px; border: none; background-color: rgb(0, 51, 153);
-       border-radius: 5px; margin-top: 50px;}
+       border-radius: 5px; margin-top: 50px; transition: all ease;}
+.products_price button:hover{opacity: 0.7; transition: 0.5s;}
 .products_price .b3{ border: 1px solid #eee; background-color: rgb(240, 240, 240);
                      color: rgb(0, 51, 153); font-weight: bold;}
 
@@ -37,21 +38,25 @@ button{width:150px; font-size: 16px; color: white; display: inline-block;
 
 .match .imgbox img:hover{filter: brightness(70%);}
 .match .imgbox h4{ text-align: center; 
-                   display: block;}
-.match .imgbox p{text-align: center;}
+                   display: block; font-size: 13px;}
+.match .imgbox p{text-align: center; font-size: 11px; color:#555;}
 
-#shipping{width: 1040px; height: 1550px; background-color: white; margin:0 auto; }
-#shipping>ul{width: 1040px; height: 50px;  padding: 0;}
+#shipping{width: 1040px; height: 1550px; ; margin:0 auto; }
+#shipping>.m1, .m2, .m3{width: 1040px; height: 40px;}
 #shipping>ul>li{ width:33.3%; height:100%; background-color:white; 
-    float:left; text-align:center; line-height: 50px;
+    float:left; text-align:center; line-height: 40px;
     border:1px solid rgb(175, 175, 175); 
-    font-size:14px; box-sizing: border-box; }
-#shipping>ul>li>a{color: #333; font-size: 15px;}
-#shipping>ul>li:nth-child(1){background-color: rgb(243, 243, 243); 
-                             border: 1px solid rgb(148, 148, 148); margin-right: -1px;}
+    box-sizing: border-box; }
+#shipping>ul>li>a{color: #333; font-size: 12px; padding: 0;}
+#shipping>ul>li:nth-child(1){ 
+                             border: 1px solid rgb(148, 148, 148); margin-right: -1px; }
 #shipping>ul>li:nth-child(3){margin-left: -1px;}
-
-.shipping_textbox{padding: 20px}
+#shipping>ul>.active{background-color: #999; color: white;}
+#shipping>ul>.active:hover{background-color: #333;}
+#shipping>ul>.active:hover a{color: white;}
+.shipping_textbox{padding: 50px;}
+.shipping_textbox h4{font-size: 13px;}
+.shipping_textbox p{font-size: 11px;}
 #up{width: 50px; height: 50px; position: fixed; bottom: 10px; right: 10px;
     border: 1px solid #666; border-radius: 50%;
     background-color: white; color: whitesmoke;}

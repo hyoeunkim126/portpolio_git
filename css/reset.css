@@ -1,4 +1,4 @@
 @charset "UTF-8";
 body{margin:0px; padding:0px; font-family:"맑은고딕";}
 ul, ol, li{list-style:none;}
-a{text-decoration:none;}
+a{text-decoration:none; color: white;}
