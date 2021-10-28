@@ -35,5 +35,5 @@ article h2{float:left; color:rgb(0, 51, 153);  font-weight: bold; text-align: ce
 
 .products{float:left; width: 330px; height: 285px; background-color: white; margin:10px 8px 0 8px; 
          }
-.products span{float:left; width: 100%; text-align: center; font-weight: bold; font-size: 18px;}
+.products span{float:left; width: 100%; text-align: center; margin-top: 20px; font-size: 16px;}
 
